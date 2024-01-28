@@ -1,25 +1,7 @@
-
-/* Your CSS Code here. */
 .holder{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-between;
-}
-.div1{
-	width:100px;
-	height:100px;
-	background-color:green;
-	
-}
-.div2{
-	width:100px;
-	height:100px;
-	background-color:red;
-	
-}
-.div3{
-	width:100px;
-	height:100px;
-	background-color:blue;
-	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
 }
